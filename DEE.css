@@ -1,0 +1,64 @@
+body{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(DEE.png);
+    background-size: cover;
+    background-position:inherit ;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 100%;
+    padding-left: 20%;
+    
+    
+}
+#task-form{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:greenyellow;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+}
+#task-form label {
+color: darksalmon;
+    
+}
+#task-title{
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+    padding-left: 200px;
+    margin: 20px;
+}
+#task-description{
+    background-color:none;
+    border-radius: 5px;
+    padding-left: 200px;
+    margin: 20px;
+}
+#task-date{
+    color: none;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+}
+button {
+    color:black;
+    margin-left: 200px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+button :hover{
+    color: aqua;
+}
+#list{
+    color: greenyellow;
+    font-family: sans-serif;
+padding-left: 200px;   
+color: yellowgreen;
+    
+}
+
